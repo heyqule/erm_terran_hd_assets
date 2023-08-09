@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2023-07-26
+
+  Features:
+    - Added SC Remaster Graphics Asset Pack
+    - Provide re-usable integration for other mods.
+    - Sound class, allows easy integration of Terran sounds
+    - AnimationDB class, allows easy integration of Terran animations
+    - Detailed tutorials will be provided on github later.
