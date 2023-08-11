@@ -189,6 +189,22 @@ function TerranSound.medic_attack(volume)
     }
 end
 
+function TerranExpSound.medic_attack_grenade(volume)
+    return {
+        audible_distance_modifier = 0.5,
+        filename = "__erm_terran_hd_assets__/sound/enemies/medic/medic_attack_grenade.ogg",
+        volume = volume
+    }
+end
+
+function TerranExpSound.medic_grenade_explosion(volume)
+    return {
+        audible_distance_modifier = 0.5,
+        filename = "__erm_terran_hd_assets__/sound/enemies/medic/medic_grenade_explosion.ogg",
+        volume = volume
+    }
+end
+
 function TerranSound.firebat_attack(volume, distance)
     return {
         audible_distance_modifier = 0.5,

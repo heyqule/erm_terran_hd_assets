@@ -65,6 +65,19 @@ return {
             }
         }
     },
+    medic_grenade = {
+        explosion = {
+            glow = {
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/medic_grenade_explosion.png",
+                width = 484,
+                height = 381,
+                frame_count = 9,
+                animation_speed = 0.5,
+                scale = 0.25,
+                draw_as_glow = true
+            }
+        }
+    },
     science_vessel_emp = {
         projectile = {
             main = {
