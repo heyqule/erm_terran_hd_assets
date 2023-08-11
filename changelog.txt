@@ -8,3 +8,4 @@ Date: 2023-07-26
     - Sound class, allows easy integration of Terran sounds
     - AnimationDB class, allows easy integration of Terran animations
     - Detailed tutorials will be provided on github later.
+    - AnimationDB use 24f/s for most animations and 12f/s frames for a few.

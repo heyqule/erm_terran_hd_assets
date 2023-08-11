@@ -3,3 +3,31 @@
 --- Created by heyqule.
 --- DateTime: 8/8/2023 7:12 PM
 ---
+
+return {
+    run = {
+        main = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/spidermine/spidermine-run.png",
+            width = 156,
+            height = 144,
+            frame_count = 11,
+            axially_symmetrical = false,
+            direction_count = 1,
+            scale = 0.3,
+            animation_speed = 0.4
+        },
+        shadow = {
+            shift = {0.2, 0}
+        },
+        team = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/spidermine/spidermine-run_teamcolour.png",
+            width = 156,
+            height = 144,
+            frame_count = 11,
+            axially_symmetrical = false,
+            direction_count = 1,
+            scale = 0.3,
+            animation_speed = 0.4
+        }
+    }
+}

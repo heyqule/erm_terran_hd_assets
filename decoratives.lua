@@ -24,56 +24,56 @@ data:extend({
         pictures  =
         {
             {
-                filename = "__erm_terran_exp__/graphics/decorative/terrancreep-decal/terrancreep-decal-00.png",
+                filename = "__erm_terran_hd_assets__/graphics/decorative/terrancreep-decal/terrancreep-decal-00.png",
                 width = 1016,
                 height = 726,
                 shift = util.by_pixel(0, 0),
                 scale = 0.5
             },
             {
-                filename = "__erm_terran_exp__/graphics/decorative/terrancreep-decal/terrancreep-decal-01.png",
+                filename = "__erm_terran_hd_assets__/graphics/decorative/terrancreep-decal/terrancreep-decal-01.png",
                 width = 998,
                 height = 722,
                 shift = util.by_pixel(-4, 1),
                 scale = 0.5
             },
             {
-                filename = "__erm_terran_exp__/graphics/decorative/terrancreep-decal/terrancreep-decal-02.png",
+                filename = "__erm_terran_hd_assets__/graphics/decorative/terrancreep-decal/terrancreep-decal-02.png",
                 width = 1014,
                 height = 718,
                 shift = util.by_pixel(0, 0),
                 scale = 0.5
             },
             {
-                filename = "__erm_terran_exp__/graphics/decorative/terrancreep-decal/terrancreep-decal-03.png",
+                filename = "__erm_terran_hd_assets__/graphics/decorative/terrancreep-decal/terrancreep-decal-03.png",
                 width = 1010,
                 height = 718,
                 shift = util.by_pixel(1, 0),
                 scale = 0.5
             },
             {
-                filename = "__erm_terran_exp__/graphics/decorative/terrancreep-decal/terrancreep-decal-04.png",
+                filename = "__erm_terran_hd_assets__/graphics/decorative/terrancreep-decal/terrancreep-decal-04.png",
                 width = 862,
                 height = 722,
                 shift = util.by_pixel(4, 0),
                 scale = 0.5
             },
             {
-                filename = "__erm_terran_exp__/graphics/decorative/terrancreep-decal/terrancreep-decal-05.png",
+                filename = "__erm_terran_hd_assets__/graphics/decorative/terrancreep-decal/terrancreep-decal-05.png",
                 width = 920,
                 height = 578,
                 shift = util.by_pixel(14, -1),
                 scale = 0.5
             },
             {
-                filename = "__erm_terran_exp__/graphics/decorative/terrancreep-decal/terrancreep-decal-06.png",
+                filename = "__erm_terran_hd_assets__/graphics/decorative/terrancreep-decal/terrancreep-decal-06.png",
                 width = 968,
                 height = 708,
                 shift = util.by_pixel(3, -2),
                 scale = 0.5
             },
             {
-                filename = "__erm_terran_exp__/graphics/decorative/terrancreep-decal/terrancreep-decal-07.png",
+                filename = "__erm_terran_hd_assets__/graphics/decorative/terrancreep-decal/terrancreep-decal-07.png",
                 width = 1016,
                 height = 722,
                 shift = util.by_pixel(0, -1),

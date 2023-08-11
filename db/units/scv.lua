@@ -3,3 +3,93 @@
 --- Created by heyqule.
 --- DateTime: 8/8/2023 7:12 PM
 ---
+
+return {
+    run = {
+        main = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/scv/scv-run.png",
+            width = 288,
+            height = 282,
+            frame_count = 1,
+            repeat_count = 4,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3,
+            animation_speed = 0.4
+        },
+        shadow = {
+            shift = { 0.66, 0 }
+        },
+        team = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/scv/scv-run_teamcolour.png",
+            width = 288,
+            height = 282,
+            frame_count = 1,
+            repeat_count = 4,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3,
+            animation_speed = 0.4,
+        },
+        glow = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/scv/scv-effect.png",
+            width = 288,
+            height = 282,
+            frame_count = 4,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3,
+            draw_as_glow = true,
+            animation_speed = 0.4
+        }
+    },
+    attack = {
+        main = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/scv/scv-attack.png",
+            width = 288,
+            height = 282,
+            frame_count = 2,
+            repeat_count = 20,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3,
+            animation_speed = 0.2
+        },
+        shadow = {
+            shift = { 0.66, 0 }
+        },
+        effect = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/scv-sparks.png",
+            width = 288,
+            height = 282,
+            scale = 0.5,
+            frame_count = 10,
+            repeat_count = 4,
+            direction_count = 1,
+            animation_speed = 0.2,
+            draw_as_glow = true
+        },
+        team = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/scv/scv-attack_teamcolour.png",
+            width = 288,
+            height = 282,
+            frame_count = 2,
+            repeat_count = 20,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3,
+            animation_speed = 0.2
+        },
+        glow = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/scv/scv-effect.png",
+            width = 288,
+            height = 282,
+            frame_count = 4,
+            repeat_count = 10,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3,
+            animation_speed = 0.2
+        }
+    }
+}

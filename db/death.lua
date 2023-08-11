@@ -9,36 +9,36 @@ return {
     firebat = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/shockbomb_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/shockbomb_explosion.png",
                 width = 400,
                 height = 432,
                 scale = 0.25,
                 frame_count = 14,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
-    small_mechanical_death = {
+    small_building_death = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/units/mechanical_death/terran_small_mechanical_death.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/buildings/building_death/terran_building_explosion_small.png",
                 width = 583,
                 height = 561,
                 frame_count = 9,
-                animation_speed = 0.25,
+                animation_speed = 0.2,
                 direction_count = 1,
                 scale = 0.375,
             }
         }
     },
-    large_mechanical_death = {
+    large_building_death = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/units/mechanical_death/terran_large_mechanical_death.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/buildings/building_death/terran_building_explosion_large.png",
                 width = 819,
                 height = 661,
                 frame_count = 10,
-                animation_speed = 0.25,
+                animation_speed = 0.2,
                 direction_count = 1,
                 scale = 0.375,
             }
@@ -47,7 +47,7 @@ return {
     ghost_death = {
         explosion = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/units/ghost/ghost-death.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/units/ghost/ghost-death.png",
                 width = 310,
                 height = 238,
                 frame_count = 8,
@@ -61,7 +61,7 @@ return {
     marine_death = {
         explosion = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/units/marine/marine-death.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/units/marine/marine-death.png",
                 width = 313,
                 height = 226,
                 frame_count = 8,
@@ -75,7 +75,7 @@ return {
     medic_death = {
         explosion = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/units/medic/medic-death.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/units/medic/medic-death.png",
                 width = 322,
                 height = 266,
                 frame_count = 8,

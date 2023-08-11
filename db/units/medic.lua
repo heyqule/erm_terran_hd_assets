@@ -3,3 +3,79 @@
 --- Created by heyqule.
 --- DateTime: 8/8/2023 7:12 PM
 ---
+
+return {
+    run = {
+        main = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/medic/medic-run.png",
+            width = 322,
+            height = 266,
+            frame_count = 7,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+        },
+        shadow = {
+            shift = {0.2, 0}
+        },
+        team = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/medic/medic-run_teamcolour.png",
+            width = 322,
+            height = 266,
+            frame_count = 7,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+        },
+        glow =                     {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/medic/medic-run_mask.png",
+            width = 322,
+            height = 266,
+            frame_count = 7,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+            blend_mode = 'additive'
+        }
+    },
+    attack = {
+        main = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/medic/medic-attack.png",
+            width = 322,
+            height = 266,
+            frame_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+            draw_as_glow = true,
+        },
+        shadow = {
+            shift = {0.2, 0}
+        },
+        team = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/medic/medic-attack_teamcolour.png",
+            width = 322,
+            height = 266,
+            frame_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+        },
+        glow =                     {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/medic/medic-attack_mask.png",
+            width = 322,
+            height = 266,
+            frame_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+            blend_mode = 'additive'
+        }
+    }
+}

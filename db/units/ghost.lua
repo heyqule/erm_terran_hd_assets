@@ -3,3 +3,59 @@
 --- Created by heyqule.
 --- DateTime: 8/8/2023 7:12 PM
 ---
+
+return {
+    run = {
+        main = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/ghost/ghost-run.png",
+            width = 310,
+            height = 238,
+            frame_count = 9,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4
+        },
+        shadow = {
+            shift = {0.2, 0}
+        },
+        team = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/ghost/ghost-run_teamcolour.png",
+            width = 310,
+            height = 238,
+            frame_count = 9,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+        }
+    },
+    attack = {
+        main  = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/ghost/ghost-attack.png",
+            width = 310,
+            height = 238,
+            frame_count = 4,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+            run_mode = "forward-then-backward",
+            draw_as_glow = true
+        },
+        shadow = {
+            shift = {0.2, 0}
+        },
+        team = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/ghost/ghost-attack_teamcolour.png",
+            width = 310,
+            height = 238,
+            frame_count = 4,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+            run_mode = "forward-then-backward"
+        }
+    }
+}

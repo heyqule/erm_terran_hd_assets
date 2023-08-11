@@ -8,7 +8,7 @@ return {
     wraith_rockets = {
         projectile = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/wraith_rockets.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/wraith_rockets.png",
                 frame_count = 1,
                 direction_count = 16,
                 width = 146,
@@ -23,7 +23,7 @@ return {
     valkyrie_rocket = {
         projectile = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/valkyrie_rocket.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/valkyrie_rocket.png",
                 frame_count = 1,
                 direction_count = 16,
                 width = 153,
@@ -38,7 +38,7 @@ return {
     missile_turret_missile = {
         projectile = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/missile_turret_projectile.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/missile_turret_projectile.png",
                 frame_count = 1,
                 direction_count = 16,
                 width = 160,
@@ -53,7 +53,7 @@ return {
     sentry_turret_rockets = {
         projectile = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/sentry_turret_rockets_projectile.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/sentry_turret_rockets_projectile.png",
                 frame_count = 1,
                 direction_count = 16,
                 width = 146,
@@ -68,7 +68,7 @@ return {
     science_vessel_emp = {
         projectile = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/science_vessel_emp_missile.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/science_vessel_emp_missile.png",
                 frame_count = 1,
                 direction_count = 16,
                 width = 160,
@@ -81,7 +81,7 @@ return {
         },
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/science_vessel_emp_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/science_vessel_emp_explosion.png",
                 width = 484,
                 height = 379,
                 scale = 0.5,
@@ -93,7 +93,7 @@ return {
     goliath_rockets = {
         projectile = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/goliath_rockets_projectile.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/goliath_rockets_projectile.png",
                 frame_count = 1,
                 direction_count = 16,
                 width = 146,
@@ -108,22 +108,22 @@ return {
     ghost_lockdown = {
         projectile = {
             main = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/ghost_lockdown_projectile.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/ghost_lockdown_projectile.png",
                 frame_count = 1,
                 direction_count = 16,
                 width = 160,
                 height = 128,
                 scale = 0.375,
-                }
+            }
         },
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/ghost_lockdown.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/ghost_lockdown.png",
                 width = 508,
                 height = 580,
-                frame_count = 75,
-                frame_sequence = {1,2,3,4,5,6,7,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,11,12,13,14,6},
-                animation_speed = 0.25,
+                frame_count = 45,
+                frame_sequence = {1,2,3,4,5,6,7,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,8,9,10,11,12,13,14,6},
+                animation_speed = 0.2,
                 scale = 0.750,
             }
         }
@@ -131,7 +131,7 @@ return {
     ghost_rounds = {
         projectile = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/ghost_bullet_trail.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/ghost_bullet_trail.png",
                 frame_count = 1,
                 width = 384,
                 height = 359,
@@ -143,7 +143,7 @@ return {
     goliath_bullet_trail = {
         projectile = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/goliath_bullet_trail.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/goliath_bullet_trail.png",
                 frame_count = 1,
                 width = 384,
                 height = 359,
@@ -155,7 +155,7 @@ return {
     marine_bullet_trail = {
         projectile = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/marine_bullet_trail.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/marine_bullet_trail.png",
                 frame_count = 1,
                 width = 384,
                 height = 359,
@@ -166,12 +166,12 @@ return {
     },
     vulture = {
       projectile = {
-          glow = {
-              filename = "__erm_terran_exp__/graphics/entity/projectiles/vulture_projectile.png",
+          main = {
+              filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/vulture_projectile.png",
               frame_count = 4,
               width = 76,
               height = 78,
-              animation_speed = 0.3,
+              animation_speed = 0.2,
               scale = 0.25,
           },
           shadow = {
@@ -185,12 +185,12 @@ return {
                 stripes  =
                 {
                     {
-                        filename = "__erm_terran_exp__/graphics/entity/projectiles/battlecruiser/battlecruiser_yamato_projectile-0.png",
+                        filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/battlecruiser/battlecruiser_yamato_projectile-0.png",
                         width_in_frames = 4,
                         height_in_frames = 8
                     },
                     {
-                        filename = "__erm_terran_exp__/graphics/entity/projectiles/battlecruiser/battlecruiser_yamato_projectile-1.png",
+                        filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/battlecruiser/battlecruiser_yamato_projectile-1.png",
                         width_in_frames = 4,
                         height_in_frames = 8
                     }
@@ -199,13 +199,13 @@ return {
                 height = 545,
                 frame_count = 4,
                 direction_count = 16,
-                animation_speed = 0.3,
+                animation_speed = 0.2,
                 scale = 0.5,
             }
         },
         charging = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/battlecruiser/battlecruiser_yamato_charging.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/battlecruiser/battlecruiser_yamato_charging.png",
                 width = 806,
                 height = 701,
                 scale = 0.5,
@@ -215,12 +215,12 @@ return {
         },
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/battlecruiser/battlecruiser_yamato_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/battlecruiser/battlecruiser_yamato_explosion.png",
                 width = 601,
                 height = 477,
                 scale = 0.5,
                 frame_count = 13,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
@@ -230,12 +230,12 @@ return {
                 stripes  =
                 {
                     {
-                        filename = "__erm_terran_exp__/graphics/entity/projectiles/battlecruiser/battlecruiser_laser-0.png",
+                        filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/battlecruiser/battlecruiser_laser-0.png",
                         width_in_frames = 1,
                         height_in_frames = 8
                     },
                     {
-                        filename = "__erm_terran_exp__/graphics/entity/projectiles/battlecruiser/battlecruiser_laser-1.png",
+                        filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/battlecruiser/battlecruiser_laser-1.png",
                         width_in_frames = 1,
                         height_in_frames = 8
                     }
@@ -244,30 +244,30 @@ return {
                 height = 547,
                 frame_count = 1,
                 direction_count = 16,
-                animation_speed = 0.3,
+                animation_speed = 0.4,
                 scale = 0.5,
             }
         },
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/battlecruiser/battlecruiser_laser_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/battlecruiser/battlecruiser_laser_explosion.png",
                 width = 352,
                 height = 506,
                 scale = 0.375,
                 frame_count = 4,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
     wraith_laser = {
         projectile = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/wraith_laser.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/wraith_laser.png",
                 width = 384,
                 height = 359,
                 frame_count = 1,
                 direction_count = 16,
-                animation_speed = 0.3,
+                animation_speed = 0.4,
                 scale = 0.375,
             }
         }
@@ -275,12 +275,12 @@ return {
     siege_tank_cannon = {
         projectile = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/siege_tank_cannon_shell.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/siege_tank_cannon_shell.png",
                 width = 153,
                 height = 122,
                 frame_count = 1,
                 direction_count = 16,
-                animation_speed = 0.3,
+                animation_speed = 0.4,
                 scale = 0.375,
             }
         }
@@ -288,85 +288,72 @@ return {
     spidermine = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/spidermine_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/spidermine_explosion.png",
                 width = 302,
                 height = 464,
                 scale = 0.25,
                 frame_count = 10,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
     shockbomb = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/shockbomb_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/shockbomb_explosion.png",
                 width = 400,
                 height = 432,
                 scale = 0.5,
                 frame_count = 14,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
     small_tri = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/small_tri_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/small_tri_explosion.png",
                 width = 192,
                 height = 192,
                 scale = 0.375,
                 frame_count = 10,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
     marine_attack_hit = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/marine_attack_hit.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/marine_attack_hit.png",
                 width = 266,
                 height = 304,
                 scale = 0.5,
                 frame_count = 15,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
     scv_sparks = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/scv-sparks.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/scv-sparks.png",
                 width = 288,
                 height = 282,
                 scale = 0.5,
                 frame_count = 10,
-                animation_speed = 0.3,
+                animation_speed = 0.2,
             }
         }
     },
     science_vessel_irradiate = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/science_vessel_irradiate_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/science_vessel_irradiate_explosion.png",
                 width = 512,
                 height = 495,
                 frame_count = 6,
                 repeat_count = 25,
-                animation_speed = 0.5,
-                scale = 0.375,
-            }
-        }
-    },
-    science_vessel_irradiate = {
-        explosion = {
-            glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/science_vessel_irradiate_explosion.png",
-                width = 512,
-                height = 495,
-                frame_count = 6,
-                repeat_count = 25,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.375,
             }
         }
@@ -376,17 +363,17 @@ return {
             glow = {
                 stripes = {
                     {
-                        filename = "__erm_terran_exp__/graphics/entity/projectiles/nuke_explosion-0.png",
+                        filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/nuke_explosion-0.png",
                         width_in_frames = 8,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_terran_exp__/graphics/entity/projectiles/nuke_explosion-1.png",
+                        filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/nuke_explosion-1.png",
                         width_in_frames = 8,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_terran_exp__/graphics/entity/projectiles/nuke_explosion-2.png",
+                        filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/nuke_explosion-2.png",
                         width_in_frames = 8,
                         height_in_frames = 1
                     }
@@ -394,7 +381,7 @@ return {
                 frame_count = 24,
                 width = 1018,
                 height = 1010,
-                animation_speed = 0.25,
+                animation_speed = 0.2,
                 scale = 1,
             }
         }
@@ -402,11 +389,11 @@ return {
     psi_disruption = {
         explosion = {
             glow = {
-                filename = "__erm_terran_exp__/graphics/entity/projectiles/psi_disruption_explosion.png",
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/psi_disruption_explosion.png",
                 width = 464,
                 height = 431,
                 frame_count = 17,
-                animation_speed = 0.15,
+                animation_speed = 0.2,
                 scale = 0.375,
             }
         }

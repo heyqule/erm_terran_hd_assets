@@ -4,8 +4,8 @@
 --- DateTime: 7/20/2023 6:26 PM
 ---
 
-require('util')
-local AnimationDB = {}
+
+local AnimationDB = require('__erm_libs__/prototypes/animation_db')
 
 --- Naming convention EntityType_Name. EntityType follows the graphics folder structure.
 --- e.g [unit][zergling], [building][hive], [projectiles][spore], etc
@@ -13,7 +13,26 @@ local AnimationDB = {}
 --- death and projectile are handled differently because they are mostly single layer animation.
 AnimationDB.data = {
     buildings = {
-
+        academy = require('__erm_terran_hd_assets__/db/buildings/academy'),
+        armoury = require('__erm_terran_hd_assets__/db/buildings/armoury'),
+        barracks = require('__erm_terran_hd_assets__/db/buildings/barracks'),
+        bunker = require('__erm_terran_hd_assets__/db/buildings/bunker'),
+        command_centre = require('__erm_terran_hd_assets__/db/buildings/command_centre'),
+        engineering_bay = require('__erm_terran_hd_assets__/db/buildings/engineering_bay'),
+        factory = require('__erm_terran_hd_assets__/db/buildings/factory'),
+        factory_machine_shop = require('__erm_terran_hd_assets__/db/buildings/factory_machine_shop'),
+        missile_turret = require('__erm_terran_hd_assets__/db/buildings/missile_turret'),
+        psi_disruptor = require('__erm_terran_hd_assets__/db/buildings/psi_disruptor'),
+        science_facility = require('__erm_terran_hd_assets__/db/buildings/science_facility'),
+        science_facility_covert_ops = require('__erm_terran_hd_assets__/db/buildings/science_facility_covert_ops'),
+        science_facility_physics_lab = require('__erm_terran_hd_assets__/db/buildings/science_facility_physics_lab'),
+        sentry_turret_bullets= require('__erm_terran_hd_assets__/db/buildings/sentry_turret_bullets'),
+        sentry_turret_rockets = require('__erm_terran_hd_assets__/db/buildings/sentry_turret_rockets'),
+        siege_tank_siege_mode_east = require('__erm_terran_hd_assets__/db/buildings/siege_tank_siege_mode_east'),
+        siege_tank_siege_mode_west = require('__erm_terran_hd_assets__/db/buildings/siege_tank_siege_mode_west'),
+        starport = require('__erm_terran_hd_assets__/db/buildings/starport'),
+        starport_control_tower = require('__erm_terran_hd_assets__/db/buildings/starport_control_tower'),
+        supply_depot = require('__erm_terran_hd_assets__/db/buildings/supply_depot'),
     },
     death = require('__erm_terran_hd_assets__/db/death'),
     projectiles = require('__erm_terran_hd_assets__/db/projectiles'),
@@ -22,12 +41,15 @@ AnimationDB.data = {
         dropship = require('__erm_terran_hd_assets__/db/units/dropship'),
         firebat = require('__erm_terran_hd_assets__/db/units/firebat'),
         ghost = require('__erm_terran_hd_assets__/db/units/ghost'),
-        goliath = require('__erm_terran_hd_assets__/db/units/goliath'),
+        goliath_body = require('__erm_terran_hd_assets__/db/units/goliath_body'),
+        goliath_turret = require('__erm_terran_hd_assets__/db/units/goliath_turret'),
         marine = require('__erm_terran_hd_assets__/db/units/marine'),
         medic = require('__erm_terran_hd_assets__/db/units/medic'),
-        science_vessel = require('__erm_terran_hd_assets__/db/units/science_vessel'),
+        science_vessel_body = require('__erm_terran_hd_assets__/db/units/science_vessel_body'),
+        science_vessel_turret = require('__erm_terran_hd_assets__/db/units/science_vessel_turret'),
         scv = require('__erm_terran_hd_assets__/db/units/scv'),
-        siege_tank = require('__erm_terran_hd_assets__/db/units/siege_tank'),
+        siege_tank_body = require('__erm_terran_hd_assets__/db/units/siege_tank_body'),
+        siege_tank_turret = require('__erm_terran_hd_assets__/db/units/siege_tank_turret'),
         spidermine = require('__erm_terran_hd_assets__/db/units/spidermine'),
         valkyrie = require('__erm_terran_hd_assets__/db/units/valkyrie'),
         vulture = require('__erm_terran_hd_assets__/db/units/vulture'),
@@ -36,139 +58,5 @@ AnimationDB.data = {
 
 }
 
-
-
-
-
-
----
---- Construct basic layered animations
----
-function AnimationDB.get_layered_animations(entity_type, name, animation_type, unit_scale)
-    return {
-        layers = {
-            AnimationDB.get_main_animation(entity_type, name, animation_type, unit_scale),
-            AnimationDB.get_shadow_animation(entity_type, name, animation_type, unit_scale),
-            AnimationDB.get_team_mask_animation(entity_type, name, animation_type, unit_scale),
-            AnimationDB.get_glow_mask_animation(entity_type, name, animation_type, unit_scale),
-            AnimationDB.get_effect_mask_animation(entity_type, name, animation_type, unit_scale),
-            AnimationDB.get_light_mask_animation(entity_type, name, animation_type, unit_scale),
-        }
-    }
-end
-
----
---- get single sprite animation
----
-function AnimationDB.get_single_animation(entity_type, name, animation_type, unit_scale)
-    local animation = AnimationDB.get_main_animation(entity_type, name, animation_type, unit_scale)
-    return animation
-end
-
-function AnimationDB.get_main_animation(entity_type, name, animation_type, unit_scale)
-    local animation = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['main'])
-    if unit_scale then
-        animation.unit_scale = unit_scale
-    end
-    return animation
-end
-
-function AnimationDB.get_shadow_animation(entity_type, name, animation_type, unit_scale)
-    if AnimationDB.data[entity_type][name][animation_type]['shadow'] then
-        local animation = AnimationDB.get_main_animation(entity_type, name, animation_type, unit_scale)
-        animation['draw_as_shadow'] = true
-        animation['shift'] = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['shadow']['shift'])
-        return animation
-    end
-end
-
----
---- Return glow mask
----
-function AnimationDB.get_glow_mask_animation(entity_type, name, animation_type, unit_scale)
-    if AnimationDB.data[entity_type][name][animation_type]['glow'] then
-        local animation = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['glow'])
-        animation['draw_as_glow'] = true
-        if unit_scale then
-            animation.unit_scale = unit_scale
-        end
-        return animation
-    end
-end
-
----
---- Return effect mask
----
-function AnimationDB.get_effect_mask_animation(entity_type, name, animation_type, unit_scale)
-    if AnimationDB.data[entity_type][name][animation_type]['effect'] then
-        local animation = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['effect'])
-        if unit_scale then
-            animation.unit_scale = unit_scale
-        end
-        return animation
-    end
-end
-
----
---- Return draw_as_light mask
----
-function AnimationDB.get_light_mask_animation(entity_type, name, animation_type, unit_scale)
-    if AnimationDB.data[entity_type][name][animation_type]['light'] then
-        local animation = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['light'])
-        if unit_scale then
-            animation.unit_scale = unit_scale
-        end
-        animation['draw_as_light'] = true
-        return animation
-    end
-end
-
----
---- Return color mask for team colors
----
-function AnimationDB.get_team_mask_animation(entity_type, name, animation_type, unit_scale)
-    if AnimationDB.data[entity_type][name][animation_type]['team'] then
-        local animation = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['team'])
-        if unit_scale then
-            animation.unit_scale = unit_scale
-        end
-        return animation
-    end
-end
-
-function AnimationDB.alter_team_color(animation_data, color, disable_mask, preserve_gloss)
-    if animation_data['layers'] then
-        for index, animation_node in pairs(animation_data['layers']) do
-            if (animation_node.filename and string.find( animation_node.filename, '_teamcolour') ~= nil) or
-                    (animation_node.filenames and string.find( animation_node.filenames[1], '_teamcolour') ~= nil) then
-                if disable_mask then
-                    animation_data['layers'][index] = nil
-                else
-                    animation_data['layers'][index]['tint'] = color
-                    if preserve_gloss then
-                        animation_data['layers'][index]['blend_mode'] = 'additive-soft'
-                    end
-                end
-            end
-        end
-    end
-
-    return animation_data
-end
-
-function AnimationDB.change_animation_speed(animation_data, speed)
-    if animation_data['layers'] then
-        for index, animation_node in pairs(animation_data['layers']) do
-            if (animation_node.filename and string.find( animation_node.filename, '_teamcolour') ~= nil) or
-                    (animation_node.filenames and string.find( animation_node.filenames[1], '_teamcolour') ~= nil) then
-                animation_data['layers'][index]['animation_speed'] = speed
-            end
-        end
-    elseif animation_data['animation_speed'] then
-        animation_data['animation_speed'] = speed
-    end
-
-    return animation_data
-end
 
 return AnimationDB

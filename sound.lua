@@ -165,10 +165,10 @@ function TerranSound.spidermine_burrow(volume)
     }
 end
 
-function TerranSound.sentry_turret_bullets(volume)
+function TerranSound.sentry_turret_bulletss(volume)
     return {
         audible_distance_modifier = 0.5,
-        filename = "__erm_terran_hd_assets__/sound/sentry_turret_bullets.ogg",
+        filename = "__erm_terran_hd_assets__/sound/sentry_turret_bulletss.ogg",
         volume = volume
     }
 end

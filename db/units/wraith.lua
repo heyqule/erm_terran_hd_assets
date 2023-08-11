@@ -3,3 +3,46 @@
 --- Created by heyqule.
 --- DateTime: 8/8/2023 7:12 PM
 ---
+
+return {
+    run = {
+        main = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/wraith/wraith-run.png",
+            width = 261,
+            height = 265,
+            frame_count = 1,
+            repeat_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+        },
+        shadow = {
+            shift = { 4, 0 }
+        },
+        team = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/wraith/wraith-run_teamcolour.png",
+            width = 261,
+            height = 265,
+            frame_count = 1,
+            repeat_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+        },
+        glow = {
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/wraith/wraith-effect.png",
+            width = 261,
+            height = 265,
+            frame_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.4,
+            draw_as_glow = true,
+            blend_mode = "additive"
+        }
+    }
+}
+
