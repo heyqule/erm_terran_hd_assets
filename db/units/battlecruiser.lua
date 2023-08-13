@@ -24,7 +24,7 @@ return {
             animation_speed = 0.4,
         },
         shadow = {
-            shift = {4, 0}
+            shift = {6, 0}
         },
         team = {
             filenames = {
@@ -66,9 +66,9 @@ return {
                 "__erm_terran_hd_assets__/graphics/entity/units/battlecruiser/battlecruiser-effect-0.png",
                 "__erm_terran_hd_assets__/graphics/entity/units/battlecruiser/battlecruiser-effect-1.png",
             },
-            slice = 1,
+            slice = 2,
             lines_per_file = 8,
-            line_length = 1,
+            line_length = 2,
             width = 473,
             height = 466,
             frame_count = 2,

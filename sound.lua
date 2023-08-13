@@ -14,9 +14,9 @@ function TerranSound.enemy_death(name, volume)
     }
 end
 
-function TerranSound.siege_tank_attack(volume)
+function TerranSound.siege_tank_attack(volume, distance)
     return {
-        audible_distance_modifier = 0.5,
+        audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/enemies/siege_tank/attack.ogg",
         volume = volume
     }
@@ -62,17 +62,18 @@ function TerranSound.missile_turret_missile(volume)
     }
 end
 
-function TerranSound.battlecruiser_yamato(volume)
+function TerranSound.battlecruiser_yamato(volume, distance)
+
     return {
-        audible_distance_modifier = 0.5,
+        audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/enemies/battlecruiser/yamato.ogg",
         volume = volume
     }
 end
 
-function TerranSound.battlecruiser_laser(volume)
+function TerranSound.battlecruiser_laser(volume, distance)
     return {
-        audible_distance_modifier = 0.5,
+        audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/enemies/battlecruiser/laser.ogg",
         volume = volume
     }
@@ -94,17 +95,19 @@ function TerranSound.valkyrie_rocket_hit(volume)
     }
 end
 
-function TerranSound.wraith_attack_missile(volume)
+function TerranSound.wraith_attack_missile(volume, distance)
+    distance = distance or 0.5
     return {
-        audible_distance_modifier = 0.5,
+        audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/enemies/wraith/wraith_attack_missile.ogg",
         volume = volume
     }
 end
 
-function TerranSound.wraith_attack_laser(volume)
+function TerranSound.wraith_attack_laser(volume, distance)
+    distance = distance or 0.5
     return {
-        audible_distance_modifier = 0.5,
+        audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/enemies/wraith/wraith_attack_laser.ogg",
         volume = volume
     }
@@ -189,7 +192,7 @@ function TerranSound.medic_attack(volume)
     }
 end
 
-function TerranExpSound.medic_attack_grenade(volume)
+function TerranSound.medic_attack_grenade(volume)
     return {
         audible_distance_modifier = 0.5,
         filename = "__erm_terran_hd_assets__/sound/enemies/medic/medic_attack_grenade.ogg",
@@ -197,7 +200,7 @@ function TerranExpSound.medic_attack_grenade(volume)
     }
 end
 
-function TerranExpSound.medic_grenade_explosion(volume)
+function TerranSound.medic_grenade_explosion(volume)
     return {
         audible_distance_modifier = 0.5,
         filename = "__erm_terran_hd_assets__/sound/enemies/medic/medic_grenade_explosion.ogg",
