@@ -3,10 +3,11 @@ Version: 1.0.1
 Date: 2023-08-??
 
   Changes:
-    - Fix sound class
-    - Fix battlecruiser
-    - Fix siege tank
-    - Fix valkyrie
+    - Fixed sound class
+    - Fixed battlecruiser in animation_db
+    - Fixed siege tank in animation_db
+    - Fixed valkyrie in animation_db
+    - Fixed Science Vessel in animation_db
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0

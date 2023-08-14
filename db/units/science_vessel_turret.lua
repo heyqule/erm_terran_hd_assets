@@ -73,6 +73,24 @@ return {
             direction_count = 16,
             scale = 0.5,
             animation_speed = 0.2
+        },
+        effect = {
+            filenames = {
+                "__erm_terran_hd_assets__/graphics/entity/units/science_vessel/science_vessel-irradiate_effect-0.png",
+                "__erm_terran_hd_assets__/graphics/entity/units/science_vessel/science_vessel-irradiate_effect-1.png",
+            },
+            slice = 3,
+            lines_per_file = 8,
+            line_length = 3,
+            width = 384,
+            height = 522,
+            frame_count = 3,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale =  0.5,
+            animation_speed = 0.1,
+            draw_as_glow = true,
+            blend_mode = "additive"
         }
     }
 }
