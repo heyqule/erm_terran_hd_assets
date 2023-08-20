@@ -3,7 +3,6 @@
 --- Created by heyqule.
 --- DateTime: 8/8/2023 7:12 PM
 ---
-
 return {
     run = {
         main = {
@@ -13,7 +12,7 @@ return {
             frame_count = 9,
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4
         },
         shadow = {
@@ -26,7 +25,7 @@ return {
             frame_count = 9,
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         }
     },
@@ -38,7 +37,7 @@ return {
             frame_count = 4,
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
             run_mode = "forward-then-backward",
             draw_as_glow = true
@@ -53,7 +52,7 @@ return {
             frame_count = 4,
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
             run_mode = "forward-then-backward"
         }

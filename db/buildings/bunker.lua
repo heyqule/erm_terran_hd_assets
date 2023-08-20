@@ -73,7 +73,6 @@ return {
             direction_count = 8,
             animation_speed = 0.4,
             scale = 0.5,
-            draw_as_light = true,
         }
     }
 }

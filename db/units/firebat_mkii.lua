@@ -7,10 +7,10 @@
 return {
     run = {
         main = {
-            filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat/firebat-run.png",
-            width = 147,
-            height = 148,
-            frame_count = 8,
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat_mkII/firebat_mkII-run.png",
+            width = 201,
+            height = 201,
+            frame_count = 20,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.5,
@@ -20,10 +20,10 @@ return {
             shift = {0.2, 0}
         },
         team = {
-            filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat/firebat-run_teamcolour.png",
-            width = 147,
-            height = 148,
-            frame_count = 8,
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat_mkII/firebat_mkII-run_teamcolour.png",
+            width = 201,
+            height = 201,
+            frame_count = 20,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.5,
@@ -32,14 +32,13 @@ return {
     },
     attack = {
         main  = {
-            filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat/firebat-attack.png",
-            width = 147,
-            height = 148,
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat_mkII/firebat_mkII-attack.png",
+            width = 201,
+            height = 201,
             frame_count = 13,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.5,
-            frame_sequence = { 1,2,2,2,2,2,2,2,2,1,1,1,1 },
             animation_speed = 0.4,
             draw_as_glow = true,
         },
@@ -47,14 +46,13 @@ return {
             shift = {0.2, 0}
         },
         team = {
-            filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat/firebat-attack_teamcolour.png",
-            width = 147,
-            height = 148,
+            filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat_mkII/firebat_mkII-attack_teamcolour.png",
+            width = 201,
+            height = 201,
             frame_count = 13,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.5,
-            frame_sequence = { 1,2,2,2,2,2,2,2,2,1,1,1,1 },
             animation_speed = 0.4,
         },
         effect = {

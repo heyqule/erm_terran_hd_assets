@@ -72,7 +72,7 @@ return {
                 width = 484,
                 height = 381,
                 frame_count = 9,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.25,
                 draw_as_glow = true
             }
@@ -287,7 +287,7 @@ return {
     },
     siege_tank_cannon = {
         projectile = {
-            glow = {
+            main = {
                 filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/siege_tank_cannon_shell.png",
                 width = 153,
                 height = 122,
@@ -358,6 +358,7 @@ return {
             }
         }
     },
+    --- 3second of irradiate
     science_vessel_irradiate = {
         explosion = {
             glow = {
@@ -365,7 +366,7 @@ return {
                 width = 512,
                 height = 495,
                 frame_count = 6,
-                repeat_count = 25,
+                repeat_count = 12,
                 animation_speed = 0.4,
                 scale = 0.375,
             }
@@ -409,6 +410,31 @@ return {
                 animation_speed = 0.2,
                 scale = 0.375,
             }
+        }
+    },
+    nuclear_launch = {
+        targeter ={
+            main = {
+                width = 624,
+                height = 440,
+                line_length = 3,
+                frame_count = 12,
+                axially_symmetrical = false,
+                direction_count = 1,
+                animation_speed = 0.4,
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/nuclear_targeter_anim.png"
+            }
+        }
+    },
+    nuclear_missile = {
+        projectile = {
+            main = {
+                width = 202,
+                height = 164,
+                frame_count = 1,
+                direction_count = 1,
+                filename = "__erm_terran_hd_assets__/graphics/entity/projectiles/nuke.png"
+            },
         }
     }
 }

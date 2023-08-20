@@ -53,7 +53,7 @@ return {
                 frame_count = 8,
                 direction_count = 1,
                 axially_symmetrical = false,
-                scale = 0.375,
+                scale = 0.5,
                 animation_speed = 0.2,
             }
         }
@@ -67,7 +67,7 @@ return {
                 frame_count = 8,
                 direction_count = 1,
                 axially_symmetrical = false,
-                scale = 0.375,
+                scale = 0.5,
                 animation_speed = 0.2,
             }
         }
@@ -81,7 +81,7 @@ return {
                 frame_count = 8,
                 direction_count = 1,
                 axially_symmetrical = false,
-                scale = 0.375,
+                scale = 0.5,
                 animation_speed = 0.2,
             }
         }

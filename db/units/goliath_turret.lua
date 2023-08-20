@@ -12,7 +12,7 @@ return {
             height = 299,
             frame_count = 10,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         },
         shadow = {
@@ -24,7 +24,7 @@ return {
             height = 299,
             frame_count = 10,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         }
     },
@@ -36,7 +36,7 @@ return {
             frame_count = 2,
             repeat_count = 4,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
             draw_as_glow = true
         },
@@ -50,7 +50,7 @@ return {
             frame_count = 2,
             repeat_count = 4,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         },
         light = {
@@ -67,7 +67,7 @@ return {
             repeat_count = 8,
             direction_count = 16,
             animation_speed = 0.4,
-            scale = 0.4
+            scale = 0.5
         }
     }
 }

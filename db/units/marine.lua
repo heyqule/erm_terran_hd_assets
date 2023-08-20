@@ -13,7 +13,7 @@ return {
             frame_count = 9,
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4
         },
         shadow = {
@@ -26,7 +26,7 @@ return {
             frame_count = 9,
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         },
         glow = {
@@ -36,7 +36,7 @@ return {
             frame_count = 9,
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
             blend_mode = 'additive'
         }
@@ -50,7 +50,7 @@ return {
             frame_sequence = { 1, 2, 3, 4, 3, 4, 3, 4, 3, 4 },
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
             draw_as_glow = true
         },
@@ -65,7 +65,7 @@ return {
             frame_sequence = { 1, 2, 3, 4, 3, 4, 3, 4, 3, 4 },
             axially_symmetrical = false,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         },
         glow = {
@@ -77,7 +77,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             animation_speed = 0.4,
-            scale = 0.375,
+            scale = 0.5,
             blend_mode = 'additive'
         },
         light = {
@@ -94,7 +94,7 @@ return {
             repeat_count = 10,
             direction_count = 16,
             animation_speed = 0.4,
-            scale = 0.2
+            scale = 0.3
         }
     }
 }

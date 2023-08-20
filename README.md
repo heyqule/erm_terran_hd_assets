@@ -11,6 +11,7 @@ However, Starcraft graphic and sound assets are properties of Blizzard Entertain
 ##### Credits
 - Code by SHlNZ0U & heyqule
 - Graphic extraction by SHlNZ0U
+- Nuclear Target animation from Klonan, M.I.R.V mod.
 
 
 ### How to use?
@@ -29,20 +30,20 @@ However, Starcraft graphic and sound assets are properties of Blizzard Entertain
 local TerranAnimation = require('__erm_terran_hd_assets__/animation_db')
 
 --- Entity_Type, Name, Animation_Type, Unit_Scale(optional)
-unit['animations'] = TerranAnimation.get_layer_animation('unit','zealot','run')
+unit['animations'] = TerranAnimation.get_layer_animation('unit','marine','run')
 
 
 -- Single layer animation
-projectile['animation'] = TerranAnimation.get_single_animation('projectiles','shield_battery','explosion')
+projectile['animation'] = TerranAnimation.get_single_animation('projectiles', 'science_vessel_emp', 'explosion', 'glow')
 
 
 -- What if i want to change the properties of the animation?
-local animation = TerranAnimation.get_single_animation('projectile','shield_battery', 'explosion')
+local animation = TerranAnimation.get_single_animation('projectiles', 'science_vessel_emp', 'explosion', 'glow')
 animation['unit_scale'] = 5
 projectile['animation'] = animation
 
 -- What if i want to change the properties of the multi layer animation?
-local animation = TerranAnimation.get_layer_animation('unit','zealot','run')
+local animation = TerranAnimation.get_layer_animation('unit','marine','run')
 for index, _ in pairs(animation['layer']) do
     animation['layer'][index]['unit_scale'] = 5    
 end
@@ -50,12 +51,19 @@ projectile['animation'] = animation
 
 --- Include Sound, see the class for details 
 local TerranSound = require('__erm_terran_hd_assets__/sound')
-unit['dying_sound'] = TerranSound.enemy_death('zealot', 1.0)
+unit['dying_sound'] = TerranSound.enemy_death('marine', 1.0)
 
 
 --- Linking icons
 {
-    icon = "__erm_terran_hd_assets__/graphics/entity/icons/units/zealot.png",
+    icon = "__erm_terran_hd_assets__/graphics/entity/icons/units/marine.png",
     icon_size = 64,
+} 
+
+OR
+
+{
+    icon = "__erm_terran_hd_assets__/graphics/entity/icons/units/marine256.png",
+    icon_size = 256,
 } 
 ```

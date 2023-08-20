@@ -13,7 +13,7 @@ return {
             frame_count = 1,
             repeat_count = 3,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         },
         shadow = {
@@ -26,7 +26,7 @@ return {
             frame_count = 1,
             repeat_count = 3,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         },
         glow = {
@@ -36,7 +36,7 @@ return {
             frame_count = 1,
             repeat_count = 3,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
             blend_mode = "additive"
         }
@@ -48,7 +48,7 @@ return {
             height = 506,
             frame_count = 1,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         },
         shadow = {
@@ -60,7 +60,7 @@ return {
             height = 506,
             frame_count = 1,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
         },
         glow = {
@@ -69,7 +69,7 @@ return {
             height = 506,
             frame_count = 1,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             animation_speed = 0.4,
             blend_mode = "additive"
         },
@@ -79,7 +79,7 @@ return {
             height = 506,
             frame_count = 1,
             direction_count = 16,
-            scale = 0.375,
+            scale = 0.5,
             draw_as_glow = true,
             animation_speed = 0.4
         },
@@ -96,7 +96,7 @@ return {
             frame_count = 1,
             direction_count = 16,
             animation_speed = 0.4,
-            scale = 0.8
+            scale = 1
         }
     }
 }
