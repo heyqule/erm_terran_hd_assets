@@ -8,9 +8,9 @@ return {
     run = {
         main = {
             filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat_mkII/firebat_mkII-run.png",
-            width = 201,
-            height = 201,
-            frame_count = 20,
+            width = 402,
+            height = 402,
+            frame_count = 17,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.5,
@@ -21,9 +21,9 @@ return {
         },
         team = {
             filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat_mkII/firebat_mkII-run_teamcolour.png",
-            width = 201,
-            height = 201,
-            frame_count = 20,
+            width = 402,
+            height = 402,
+            frame_count = 17,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.5,
@@ -33,8 +33,8 @@ return {
     attack = {
         main  = {
             filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat_mkII/firebat_mkII-attack.png",
-            width = 201,
-            height = 201,
+            width = 402,
+            height = 402,
             frame_count = 13,
             axially_symmetrical = false,
             direction_count = 16,
@@ -47,8 +47,8 @@ return {
         },
         team = {
             filename = "__erm_terran_hd_assets__/graphics/entity/units/firebat_mkII/firebat_mkII-attack_teamcolour.png",
-            width = 201,
-            height = 201,
+            width = 402,
+            height = 402,
             frame_count = 13,
             axially_symmetrical = false,
             direction_count = 16,

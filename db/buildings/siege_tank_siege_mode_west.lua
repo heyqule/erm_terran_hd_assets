@@ -39,8 +39,8 @@ return {
             height = 531,
             frame_count = 1,
             direction_count = 1,
-            animation_speed = 0.2,
             scale = 0.5,
+            animation_speed = 0.2,
         },
         shadow = {
             shift = {0.25, 0}
@@ -51,8 +51,8 @@ return {
             height = 531,
             frame_count = 1,
             direction_count = 1,
-            animation_speed = 0.2,
             scale = 0.5,
+            animation_speed = 0.2,
         },
     },
     preparing = {
@@ -74,8 +74,8 @@ return {
             height = 531,
             frame_count = 6,
             direction_count = 1,
-            animation_speed = 0.2,
             scale = 0.5,
+            animation_speed = 0.2,
         }
     },
     prepared = {
@@ -91,13 +91,13 @@ return {
             height = 531,
             frame_count = 1,
             direction_count = 16,
-            animation_speed = 0.2,
             scale = 0.5,
+            animation_speed = 0.2,
         },
         shadow = {
             shift = {0.25, 0}
         },
-        team ={
+        team = {
             filenames = {
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode_alt/siege_tank_siege_mode_alt-attack_teamcolour-0.png",
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode_alt/siege_tank_siege_mode_alt-attack_teamcolour-1.png",
@@ -108,10 +108,10 @@ return {
             width = 515,
             height = 531,
             frame_count = 1,
-            direction_count = 1,
+            direction_count = 16,
             scale = 0.5,
             animation_speed = 0.2,
-        },
+        }
     },
     attack = {
         main = {
@@ -133,7 +133,7 @@ return {
         shadow = {
             shift = {0.25, 0}
         },
-        team ={
+        team = {
             filenames = {
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode_alt/siege_tank_siege_mode_alt-attack_teamcolour-0.png",
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode_alt/siege_tank_siege_mode_alt-attack_teamcolour-1.png",
@@ -145,22 +145,22 @@ return {
             height = 531,
             frame_count = 1,
             repeat_count = 5,
-            direction_count = 1,
-            scale = 0.5,
+            direction_count = 16,
             animation_speed = 0.2,
+            scale = 0.5,
         },
         glow = {
             filenames = {
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode_alt/siege_tank_siege_mode_alt-attack_mask-0.png",
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode_alt/siege_tank_siege_mode_alt-attack_mask-1.png",
             },
-            slice = 1,
+            slice = 5,
             lines_per_file = 8,
-            line_length = 1,
+            line_length = 5,
             width = 515,
             height = 531,
             frame_count = 5,
-            direction_count = 1,
+            direction_count = 16,
             scale = 0.5,
             animation_speed = 0.2,
             blend_mode = 'additive',
@@ -177,7 +177,7 @@ return {
             height = 531,
             frame_count = 1,
             repeat_count = 5,
-            direction_count = 1,
+            direction_count = 16,
             scale = 0.5,
             animation_speed = 0.2,
         },

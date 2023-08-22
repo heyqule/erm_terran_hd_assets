@@ -133,23 +133,6 @@ return {
         shadow = {
             shift = {0.25, 0}
         },
-        light = {
-            filenames = {
-                "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode/siege_tank_siege_mode-flash-0.png",
-                "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode/siege_tank_siege_mode-flash-1.png",
-            },
-            slice = 1,
-            lines_per_file = 8,
-            line_length = 1,
-            width = 515,
-            height = 531,
-            frame_count = 1,
-            repeat_count = 5,
-            direction_count = 1,
-            scale = 1,
-            scale = 0.5,
-            animation_speed = 0.2,
-        },
         team = {
             filenames = {
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode/siege_tank_siege_mode-attack_teamcolour-0.png",
@@ -171,16 +154,32 @@ return {
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode/siege_tank_siege_mode-attack_mask-0.png",
                 "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode/siege_tank_siege_mode-attack_mask-1.png",
             },
+            slice = 5,
+            lines_per_file = 8,
+            line_length = 5,
+            width = 515,
+            height = 531,
+            frame_count = 5,
+            direction_count = 16,
+            scale = 0.5,
+            animation_speed = 0.2,
+            blend_mode = 'additive',
+        },
+        light = {
+            filenames = {
+                "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode/siege_tank_siege_mode-flash-0.png",
+                "__erm_terran_hd_assets__/graphics/entity/buildings/siege_tank_siege_mode/siege_tank_siege_mode-flash-1.png",
+            },
             slice = 1,
             lines_per_file = 8,
             line_length = 1,
             width = 515,
             height = 531,
-            frame_count = 5,
-            direction_count = 1,
+            frame_count = 1,
+            repeat_count = 5,
+            direction_count = 16,
             scale = 0.5,
             animation_speed = 0.2,
-            blend_mode = 'additive',
-        }
+        },
     }
 }
