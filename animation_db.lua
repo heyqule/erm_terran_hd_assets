@@ -57,6 +57,7 @@ AnimationDB.data = {
         valkyrie = require('__erm_terran_hd_assets__/db/units/valkyrie'),
         vulture = require('__erm_terran_hd_assets__/db/units/vulture'),
         wraith = require('__erm_terran_hd_assets__/db/units/wraith'),
+        wraith_mkii = require('__erm_terran_hd_assets__/db/units/wraith_mkii'),
     }
 
 }

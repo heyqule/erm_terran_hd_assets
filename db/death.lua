@@ -86,4 +86,29 @@ return {
             }
         }
     },
+    small_rubble = {
+        corpse ={
+            main = {
+                filename = "__erm_terran_hd_assets__/graphics/entity/buildings/building_death/terran_small_rubble.png",
+                width = 390,
+                height = 390,
+                variation_count = 4,
+                frame_count = 1,
+                direction_count = 1,
+                scale = 0.5,
+            }
+        }
+    },
+    large_rubble = {
+        corpse ={
+            main = {
+                filename = "__erm_terran_hd_assets__/graphics/entity/buildings/building_death/terran_large_rubble.png",
+                width = 525,
+                height = 525,
+                frame_count = 1,
+                direction_count = 1,
+                scale = 0.5,
+            }
+        }
+    }
 }

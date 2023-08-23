@@ -4,10 +4,7 @@ Date: 2023-08-??
 
   Changes:
     - Fixed sound class
-    - Fixed battlecruiser in animation_db
-    - Fixed siege tank in animation_db
-    - Fixed valkyrie in animation_db
-    - Fixed Science Vessel in animation_db
+    - Fixed various entity in AnimationDB.
     - Added Nuclear Missile to AnimationDB
     - Added Nuclear target indicator to AnimationDB.
     - Added SC2 variants of Marine, Firebat, Wraith, Battlecruiser, Ghost and Tank
