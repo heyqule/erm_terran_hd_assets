@@ -201,6 +201,38 @@ function TerranSound.marine_attack(volume, distance)
     }
 end
 
+function TerranSound.marine_mk2_attack(volume, distance)
+    distance = distance or 0.5
+    return {
+        type = "sound",
+        audible_distance_modifier = distance,
+        variations = {
+            {
+                filename = "__erm_terran_hd_assets__/sound/enemies/marine_mkII/attack-0.ogg",
+                volume = volume
+            },
+            {
+                filename = "__erm_terran_hd_assets__/sound/enemies/marine_mkII/attack-1.ogg",
+                volume = volume
+            },
+            {
+                filename = "__erm_terran_hd_assets__/sound/enemies/marine_mkII/attack-2.ogg",
+                volume = volume
+            },
+        }
+    }
+end
+
+function TerranSound.marine_mk3_attack(volume, distance)
+    distance = distance or 0.5
+    return {
+        type = "sound",
+        audible_distance_modifier = distance,
+        filename = "__erm_terran_hd_assets__/sound/enemies/marine_mkIII/attack.ogg",
+        volume = volume
+    }
+end
+
 function TerranSound.medic_attack(volume, distance)
     distance = distance or 0.5
     return {
