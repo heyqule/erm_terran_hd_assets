@@ -7,15 +7,17 @@
 --
 local TerranSound = {}
 
-function TerranSound.enemy_death(name, volume)
+function TerranSound.enemy_death(name, volume, distance)
+    distance = distance or 1
     return {
+        audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/enemies/" .. name .. "/death.ogg",
         volume = volume
     }
 end
 
 function TerranSound.siege_tank_attack(volume, distance)
-    distance = distance or 0.5
+    distance = distance or 1
     return {
         audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/enemies/siege_tank/attack.ogg",
@@ -24,7 +26,7 @@ function TerranSound.siege_tank_attack(volume, distance)
 end
 
 function TerranSound.siege_tank_siege_mode_death(volume, distance)
-    distance = distance or 0.5
+    distance = distance or 1
     return {
         audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/enemies/siege_tank/death.ogg",
@@ -441,16 +443,19 @@ function TerranSound.firebat_death(volume, distance)
     }
 end
 
-function TerranSound.building_dying_sound(volume)
+function TerranSound.building_dying_sound(volume, distance)
+    distance = distance or 1
     return {
+        audible_distance_modifier = distance,
         filename = "__erm_terran_hd_assets__/sound/buildings/explode_building.ogg",
         volume = volume
     }
 end
 
-function TerranSound.bunker_idle(volume)
+function TerranSound.bunker_idle(volume, distance)
+    distance = distance or 1
     return {
-        audible_distance_modifier = 1,
+        audible_distance_modifier = distance,
         sound = {
             {
                 filename = "__erm_terran_hd_assets__/sound/buildings/bunker.ogg",
@@ -462,10 +467,10 @@ function TerranSound.bunker_idle(volume)
     }
 end
 
-function TerranSound.siege_tank_idle(volume)
-    return
-    {
-        audible_distance_modifier = 1,
+function TerranSound.siege_tank_idle(volume, distance)
+    distance = distance or 1
+    return {
+        audible_distance_modifier = distance,
         sound = {
             variations = {
                 {
@@ -487,9 +492,10 @@ function TerranSound.siege_tank_idle(volume)
     }
 end
 
-function TerranSound.missile_turret_idle(volume)
+function TerranSound.missile_turret_idle(volume, distance)
+    distance = distance or 1
     return {
-        audible_distance_modifier = 1,
+        audible_distance_modifier = distance,
         sound = {
             {
                 filename = "__erm_terran_hd_assets__/sound/buildings/missile_turret.ogg",
@@ -501,9 +507,10 @@ function TerranSound.missile_turret_idle(volume)
     }
 end
 
-function TerranSound.sentry_turret_idle(volume)
+function TerranSound.sentry_turret_idle(volume, distance)
+    distance = distance or 1
     return {
-        audible_distance_modifier = 1,
+        audible_distance_modifier = distance,
         sound = {
             {
                 filename = "__erm_terran_hd_assets__/sound/buildings/sentry_turret_idle.ogg",
@@ -515,10 +522,10 @@ function TerranSound.sentry_turret_idle(volume)
     }
 end
 
-function TerranSound.building_working_sound(name, volume)
-    return
-    {
-        audible_distance_modifier = 1,
+function TerranSound.building_working_sound(name, volume, distance)
+    distance = distance or 1
+    return {
+        audible_distance_modifier = distance,
         max_sounds_per_type = 3,
         sound = {
             filename = "__erm_terran_hd_assets__/sound/buildings/" .. name .. ".ogg",
