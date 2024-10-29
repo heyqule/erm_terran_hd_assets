@@ -38,7 +38,7 @@ return {
             direction_count = 16,
             scale = 0.5,
             animation_speed = 0.4,
-            blend_mode = 'additive'
+            blend_mode = "additive"
         }
     },
     attack = {
@@ -78,7 +78,7 @@ return {
             direction_count = 16,
             animation_speed = 0.4,
             scale = 0.5,
-            blend_mode = 'additive'
+            blend_mode = "additive"
         },
         light = {
             filenames = {

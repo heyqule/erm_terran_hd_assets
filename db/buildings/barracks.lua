@@ -28,7 +28,7 @@ return {
             direction_count = 1,
             run_mode = "forward-then-backward",
             scale = 0.5,
-            blend_mode = 'additive',
+            blend_mode = "additive",
         },
         team = {
             filename = "__erm_terran_hd_assets__/graphics/entity/buildings/barracks/barracks_teamcolour.png",

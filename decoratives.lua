@@ -3,7 +3,7 @@
 --- Created by SHlNZ0U.
 --- DateTime: 17/07/2023 2:48 PM
 ---
-local MOD_NAME = 'erm_terran_hd_assets'
+local MOD_NAME = "erm_terran_hd_assets"
 
 local final_render_layer = "decals"
 if mods["alien-biomes"] then

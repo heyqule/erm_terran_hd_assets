@@ -26,7 +26,7 @@ return {
             animation_speed = 0.2,
             direction_count = 1,
             scale = 0.5,
-            blend_mode = 'additive',
+            blend_mode = "additive",
         },
     }
 }

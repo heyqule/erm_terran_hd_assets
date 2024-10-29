@@ -26,7 +26,7 @@ return {
             direction_count = 1,
             animation_speed = 0.2,
             scale = 0.5,
-            blend_mode = 'additive',
+            blend_mode = "additive",
         },
         team = {
             filename = "__erm_terran_hd_assets__/graphics/entity/buildings/science_facility_physics_lab/science_facility_physics_lab_teamcolour.png",

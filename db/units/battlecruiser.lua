@@ -59,7 +59,7 @@ return {
             direction_count = 16,
             scale = 0.66,
             animation_speed = 0.4,
-            blend_mode = 'additive'
+            blend_mode = "additive"
         },
         effect = {
             filenames = {
@@ -134,7 +134,7 @@ return {
             direction_count = 16,
             scale = 0.66,
             animation_speed = 0.4,
-            blend_mode = 'additive'
+            blend_mode = "additive"
         },
         effect = {
             filenames = {
