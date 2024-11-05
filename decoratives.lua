@@ -13,11 +13,11 @@ end
 data:extend({
     --- terrancreep
     {
-        name = MOD_NAME .. "/terrancreep-decal",
+        name = MOD_NAME .. "--terrancreep-decal",
         type = "optimized-decorative",
         order = "b[decorative]-b[terrancreep-decal]",
         collision_box = {{-6, -4}, {6, 4}},
-        collision_mask = {"water-tile", "colliding-with-tiles-only"},
+        collision_mask = { layers = {water_tile = true}, colliding_with_tiles_only=true },
         render_layer = final_render_layer,
         tile_layer = 60,
         pictures  =
