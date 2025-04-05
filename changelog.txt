@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2025-04-??
+
+  Changes:
+    - Added Refinery graphic. (not included in AnimationDB because the geysers require special treatment)
+
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 2024-11-25
 
