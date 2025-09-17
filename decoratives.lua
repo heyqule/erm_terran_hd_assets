@@ -3,7 +3,6 @@
 --- Created by SHlNZ0U.
 --- DateTime: 17/07/2023 2:48 PM
 ---
-local MOD_NAME = "erm_terran_hd_assets"
 
 local final_render_layer = "decals"
 if mods["alien-biomes"] then
@@ -13,7 +12,7 @@ end
 data:extend({
     --- terrancreep
     {
-        name = MOD_NAME .. "--terrancreep-decal",
+        name = "terrancreep-decal",
         type = "optimized-decorative",
         order = "b[decorative]-b[terrancreep-decal]",
         collision_box = {{-6, -4}, {6, 4}},

@@ -68,7 +68,7 @@ return {
             width = 256,
             height = 384,
             frame_count = 1,
-            direction_count = 16,
+            direction_count = 1,
             animation_speed = 0.2,
             scale = 0.5,
         },

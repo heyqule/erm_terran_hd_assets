@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2025-09-14
+
+  Changes:
+    - Changed decorative renamed from MOD_PREFIX+"terrancreep-decal" to "terrancreep-decal" (by _jo.nat_).
+    - Fixed Barrack repeat count (by _jo.nat_).
+    - Fixed Sentry Turret graphic direction (by _jo.nat_).
+
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2025-04-11
 
