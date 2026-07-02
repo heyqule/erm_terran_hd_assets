@@ -1,12 +1,12 @@
 {
   "name": "erm_terran_hd_assets",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "date": "2023-07-15",
   "title": "ERM - Terran HD Graphic Assets",
   "author": "SHlNZ0U, heyqule",
   "description": "ERM - Terran HD Graphic Assets",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
-     "erm_libs >= 2.0"
+     "erm_libs >= 2.1"
   ]
 }
